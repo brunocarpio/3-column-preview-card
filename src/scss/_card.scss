@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 90px 25px;
+
+  @include breakpoint(medium) {
+    display: flex;
+    flex-direction: row;
+    margin: 170px 260px;
+  }
+
+}

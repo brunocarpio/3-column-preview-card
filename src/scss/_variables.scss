@@ -1,0 +1,26 @@
+// Font families
+$font-big: 'Big Shoulders Display', cursive; 
+$font-small: 'Lexend Deca', sans-serif;
+
+// Fonts
+$orange: hsl(31, 77%, 52%);
+$lightCyan: hsl(184, 100%, 22%);
+$darkCyan: hsl(179, 100%, 13%);
+$white: hsla(0, 0%, 100%, 0.75);
+$gray: hsl(0, 0%, 95%);
+
+
+// Media Queries
+$breakpoints: (
+  medium: 700px,
+  large: 1000px,
+  xlarge: 1300px
+);
+
+@mixin breakpoint($size) {
+  $breakpoint-value: map-get($breakpoints, $size);
+
+  @media screen and (min-width: $breakpoint-value) {
+    @content;
+  }
+}
