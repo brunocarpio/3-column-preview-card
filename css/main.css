@@ -1,0 +1,88 @@
+button {
+  padding: 16px 30px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+}
+button:hover {
+  color: #f2f2f2 !important;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 400 0.75rem "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font: 700 2.0625rem "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 700px) {
+  p {
+    margin-bottom: 85px;
+  }
+}
+
+.column {
+  padding: 49px 66px 46px 46px;
+}
+
+.orange {
+  background-color: #e38826;
+}
+.orange button {
+  color: #e38826;
+}
+.orange button:hover {
+  background-color: #e38826;
+}
+
+.lightCyan {
+  background-color: #006970;
+}
+.lightCyan button {
+  color: #006970;
+}
+.lightCyan button:hover {
+  background-color: #006970;
+}
+
+.darkCyan {
+  background-color: #004241;
+}
+.darkCyan button {
+  color: #004241;
+}
+.darkCyan button:hover {
+  background-color: #004241;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 90px 25px;
+}
+@media screen and (min-width: 700px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    margin: 170px 260px;
+  }
+}
